@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;}
+
+div.logo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul{display: flex; justify-content: space-between; background-color:greenyellow;  padding: 30px; 
+    flex-wrap: inherit;}
+li{text-decoration: none; list-style: none;}
+a{text-decoration: none;color: blue;}
+body{}
+a:hover{text-decoration: underline;transition: 1s;color: rgb(14, 3, 3);font-size: 12pt; }
+h1{font-size:20px ;justify-items: center;}
+h2{font-size: 14px;}
+im{border-radius: 10px;padding:0%;}
+#rodape{text-align: center;background-color:greenyellow ;padding: 0px;margin: 12px;}
+#logo{text-align: center;align-items: center;}
+
+
+
+
+/*Formularios Fale Connosco*/
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-group label{
+    margin-bottom:5px ;
+}
+
+.form-group input, select{
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.form-group textarea{
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+
+.form-group button{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: greenyellow;
+    color: #000;
+    cursor: pointer;
+}
+
+#form{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#form form{
+    width: 500px;
+    box-shadow: 0px 0px 8px rgba(78, 67, 67, 0.664);
+    border-radius: 25px;
+    padding: 3vh;
+    background-color: none;
+
+}
+  
+.card1{width: 350px;
+height: 300px;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-bottom: 0px;
+margin-top: 30px;
+
+
+
+
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    
+}
+
+.card1#card1f{
+    background-image: url(../Media/2.jpg);
+    background-size: cover;
+   
+}
+
+.card button{width: 350px;
+height: 40px;
+border-radius: 10px;
+border: none;
+background-color: greenyellow;
+color: #000;
+cursor: pointer;
+margin: 0px;
+color: rebeccapurple;
+
+} 
+
+.card1#cardf2{
+    background-image: url(../Media/4.jpg);
+    background-size: cover;
+  cursor: nesw-resize;
+   
+}
+
+.card1#card3f{
+    background-image: url(../Media/1.jpg);
+   background-size: cover;
+   
+}
